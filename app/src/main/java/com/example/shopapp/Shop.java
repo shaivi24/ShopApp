@@ -11,12 +11,13 @@ public class Shop implements Serializable {
     private String image;
     private String latitude;
     private String longitude;
+    private String address;
 
     public Shop() {
     }
 
     public Shop(int id, String companyName, String contactName, String mobileNumber, String image,
-                String latitude, String longitude, long timeStamp) {
+                String latitude, String longitude, String address, long timeStamp) {
         this.id = id;
         this.companyName = companyName;
         this.contactName = contactName;
@@ -24,6 +25,7 @@ public class Shop implements Serializable {
         this.image = image;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.address = address;
         this.timeStamp = timeStamp;
     }
 
@@ -92,4 +94,13 @@ public class Shop implements Serializable {
     public void setMobileNumber(String mobileNumber) {
         this.mobileNumber = mobileNumber;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
 }

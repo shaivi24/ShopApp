@@ -78,6 +78,7 @@ public class Update extends AppCompatActivity {
         updateAddress = (TextView) findViewById(R.id.updateAddress);
         updateLatitude.setText(model.getLatitude());
         updateLongitude.setText(model.getLongitude());
+        updateAddress.setText(model.getAddress());
 
         Glide.with(this)
                 .load(model.getImage())
@@ -224,6 +225,7 @@ public class Update extends AppCompatActivity {
                     model.setLongitude(location.getLongitude()+"");
                     updateLatitude.setText("Latitude: " + model.getLatitude());
                     updateLongitude.setText("Longitude: " + model.getLongitude());
+                    updateAddress.setText("Address: " + updateAddress.getText().toString());
                 }
                 else {
                     Toast.makeText(Update.this,"Location is null",Toast.LENGTH_SHORT).show();

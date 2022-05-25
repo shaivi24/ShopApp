@@ -222,6 +222,7 @@ public class Add extends AppCompatActivity {
                     }
                     shop.setLatitude(location.getLatitude()+"");
                     shop.setLongitude(location.getLongitude()+"");
+                    shop.setAddress(address.getText().toString());
                     lat.setText("Latitude: " + shop.getLatitude());
                     longi.setText("Longitude: " + shop.getLongitude());
                 }
