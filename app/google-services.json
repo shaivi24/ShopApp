@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "117542402696",
+    "project_id": "shopcrud",
+    "storage_bucket": "shopcrud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117542402696:android:068db9ff13654f322bbd3d",
+        "android_client_info": {
+          "package_name": "com.example.shopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117542402696-et45svlmrjerj32f2r7v9mm6q4ckadeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKvslBrcbTgqJKdxboRRr09Z69AfAc1kA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117542402696-et45svlmrjerj32f2r7v9mm6q4ckadeq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
